@@ -38,8 +38,8 @@ class RtpPacket:
 		self.header = header
 		
 		# Get the payload
-                # ...
-                self.payload = payload
+		# ...
+		self.payload = payload
 		
 	def decode(self, byteStream):
 		"""Decode the RTP packet."""
